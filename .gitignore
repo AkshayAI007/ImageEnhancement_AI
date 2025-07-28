@@ -1,0 +1,24 @@
+﻿# Virtual environment - NEVER commit this!
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+
+# Model files - will be downloaded at runtime
+weights/
+*.pth
+*.pt
+*.ckpt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
